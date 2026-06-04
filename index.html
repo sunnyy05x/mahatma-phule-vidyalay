@@ -6,6 +6,8 @@
     <title>Mahatma Phule Vidyalaya, Bhosari</title>
     <meta name="description" content="Mahatma Phule Vidyalaya is a reputed pre-primary, primary and secondary school located in Bhosari, Pune.">
     <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -14,6 +16,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#academics">Academics</a></li>
                 <li><a href="#notices">Notices</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -25,7 +28,51 @@
         <div class="hero-content">
             <h1>Welcome to Mahatma Phule Vidyalaya</h1>
             <p>Empowering minds and shaping the future since 1979 in Bhosari, Pune.</p>
-            <a href="#contact" class="btn">Admissions Enquiry</a>
+            <a href="#about" class="btn">Discover More</a>
+            <a href="#contact" class="btn btn-outline" style="margin-left: 15px;">Admissions Enquiry</a>
+        </div>
+    </section>
+
+    <!-- Features / Highlights -->
+    <section id="highlights" style="background-color: transparent;">
+        <div class="grid-container features-grid">
+            <div class="feature-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Excellence in Education</h3>
+                <p>Providing holistic education from pre-primary to higher secondary levels with a strong foundation.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Expert Faculty</h3>
+                <p>Our dedicated and highly qualified teachers focus on the individual growth of every student.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Modern Facilities</h3>
+                <p>Equipped with spacious classrooms, e-learning facilities, laboratories, and a rich library.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-light">
+        <div class="about-flex">
+            <div class="about-text">
+                <h2 class="section-title" style="text-align: left; margin-bottom: 1.5rem;">About Our School</h2>
+                <p>Founded in 1979 by the <strong>Mahatma Phule Jagruti Mandal</strong>, Mahatma Phule Vidyalaya has been a beacon of knowledge and character-building in Bhosari. We believe in nurturing young minds to become responsible, innovative, and compassionate citizens of tomorrow.</p>
+                <div class="mission-vision">
+                    <div class="mv-box">
+                        <h4><i class="fas fa-eye"></i> Our Vision</h4>
+                        <p>To create a dynamic learning environment that inspires excellence and character development.</p>
+                    </div>
+                    <div class="mv-box">
+                        <h4><i class="fas fa-bullseye"></i> Our Mission</h4>
+                        <p>To provide quality education accessible to all, focusing on holistic development and social values.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/media__1780538075697.jpg" alt="School Activities" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); width: 100%; aspect-ratio: 4/3; object-fit: cover;">
+            </div>
         </div>
     </section>
 
@@ -36,48 +83,95 @@
         </div>
     </section>
 
-    <section id="about">
-        <h2 class="section-title">About Our School</h2>
+    <section id="academics" class="bg-light">
+        <h2 class="section-title">Academic Programs</h2>
         <div class="grid-container">
             <div class="info-card">
-                <h3>Our History</h3>
-                <p>Mahatma Phule Vidyalaya is a school founded by Mahatma Phule Jagruti Mandal in 1979. We offer Pre-Primary, Primary, Middle School, High School, and Higher Secondary education.</p>
+                <h3>Pre-Primary & Primary</h3>
+                <p>A nurturing environment where children develop their cognitive, motor, and social skills through play-way and interactive learning methods.</p>
             </div>
             <div class="info-card">
-                <h3>Facilities</h3>
-                <p>The school features a magnificent three-storied building, spacious classrooms, modern playgrounds, fully-equipped laboratories, a rich library, and advanced e-learning facilities.</p>
+                <h3>Middle School</h3>
+                <p>Focusing on conceptual clarity, scientific temper, and holistic development to prepare students for higher academic challenges.</p>
+            </div>
+            <div class="info-card">
+                <h3>High School & Higher Sec.</h3>
+                <p>Rigorous academic training, career guidance, and state board exam preparation to ensure students excel in their chosen paths.</p>
             </div>
         </div>
     </section>
 
-    <section id="gallery">
+    <section id="principal">
+        <div class="principal-msg">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <h2>From the Principal's Desk</h2>
+            <p>"Education is the most powerful weapon which you can use to change the world. At Mahatma Phule Vidyalaya, we strive to ignite curiosity and instill core values in our students, preparing them to face the challenges of the 21st century with confidence and integrity."</p>
+            <h4 style="color: var(--primary-color);">— Principal, Mahatma Phule Vidyalaya</h4>
+        </div>
+    </section>
+
+    <section id="gallery" class="bg-light">
         <h2 class="section-title">School Life Gallery</h2>
         <div class="gallery-grid">
-            <div class="gallery-item"><img src="images/media__1780538075697.jpg" alt="School Event Stage"></div>
+            <div class="gallery-item"><img src="images/media__1780538056522.jpg" alt="School Building"></div>
             <div class="gallery-item"><img src="images/media__1780538095985.jpg" alt="Students Gathering"></div>
             <div class="gallery-item"><img src="images/media__1780538116008.jpg" alt="Stage Function"></div>
             <div class="gallery-item"><img src="images/media__1780538127466.jpg" alt="Teachers and Staff"></div>
         </div>
     </section>
 
-    <section id="contact" style="background-color: var(--white);">
-        <h2 class="section-title">Contact Us</h2>
-        <div class="grid-container">
-            <div class="info-card">
-                <h3>Address</h3>
-                <p>Mahatma Phule Road, Gardener Lane<br>Bhosari, Pune - 411039<br>Maharashtra, India</p>
-            </div>
-            <div class="info-card">
+    <section id="contact">
+        <h2 class="section-title">Contact & Admissions</h2>
+        <div class="contact-flex">
+            <div class="contact-details">
                 <h3>Get in Touch</h3>
-                <p><strong>Phone:</strong> 098505 68843</p>
-                <p><strong>Email:</strong> mppsbhosari@gmail.com</p>
-                <p><strong>Website:</strong> www.mahatmaphuleschoolbhosari.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> <span>Mahatma Phule Road, Gardener Lane<br>Bhosari, Pune - 411039, Maharashtra</span></p>
+                <p><i class="fas fa-phone-alt"></i> <span>098505 68843</span></p>
+                <p><i class="fas fa-envelope"></i> <span>mppsbhosari@gmail.com</span></p>
+                <p><i class="fas fa-globe"></i> <span>www.mahatmaphuleschoolbhosari.com</span></p>
+                
+                <h3 style="margin-top: 2.5rem; color: var(--primary-color);">Admissions Open 2026-2027</h3>
+                <p style="margin-top: 1rem;">Please contact the school directly for the admission procedure or drop by the school office between 9:00 AM and 3:00 PM on working days.</p>
+            </div>
+            <div class="contact-form">
+                <h3>Send an Enquiry</h3>
+                <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you for your enquiry. We will contact you soon!');">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone">
+                    <textarea rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn" style="width: 100%;">Submit Enquiry</button>
+                </form>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Mahatma Phule Vidyalaya, Bhosari. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Mahatma Phule Vidyalaya</h3>
+                <p>Empowering minds and shaping the future since 1979.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mahatma Phule Vidyalaya, Bhosari. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
